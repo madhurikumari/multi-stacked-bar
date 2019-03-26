@@ -46,7 +46,7 @@ p3 <- stacked_bar(df3, TRUE) + labs(title = " ZEV 2030")+theme(axis.text.x = ele
 
 #ZEV2050
 df4 <- read.csv("MK_FromMarshall - ZEV2050.csv", header = TRUE)
-p5 <- stacked_bar(df4, FALSE) +   labs(title = "ZEV 2050")+theme(axis.text.x = element_blank())
+p4 <- stacked_bar(df4, FALSE) +   labs(title = "ZEV 2050")+theme(axis.text.x = element_blank())
 
 #ZEV+B2030
 df5 <- read.csv("MK_FromMarshall - ZEV+B2030.csv", header = TRUE)
